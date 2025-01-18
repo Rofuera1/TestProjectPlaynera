@@ -1,0 +1,54 @@
+{
+    "name": "Main Input",
+    "maps": [
+        {
+            "name": "Main",
+            "id": "cae747b3-5e2f-48f4-b66a-a0acd2c07718",
+            "actions": [
+                {
+                    "name": "ChangeTouch",
+                    "type": "Value",
+                    "id": "04ea99ff-9cc8-4265-a77f-5fab9c2f5a6d",
+                    "expectedControlType": "Touch",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Touching",
+                    "type": "Value",
+                    "id": "e2545ce0-29b7-4426-9fcc-26109be04c5b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "30e6a00e-b859-4cee-ba39-c7b793d86d10",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeTouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "32192731-5f37-4ca1-9aa1-ca279ee4c388",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Touching",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
